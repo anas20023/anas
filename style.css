@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("index.jpg");
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: poppins;
+
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  top: 55%;
+  left: 50%;
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+  top: 55%;
+  left: 50%;
+
+}
+.hero-text button {
+  border: none;
+  border-radius: 3px;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: 50,50,50;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  font-family:poppins;
+
+}
+
+.hero-text button:hover {
+  background-color:dodgerblue;
+  color:white ;
+}
+.navbar {
+  overflow: hidden;
+  background-color: 242,242,242;
+  position: fixed;
+  top: 7%;
+  left: 60%;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+ background-color:dodgerblue;
+  color:white ;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
